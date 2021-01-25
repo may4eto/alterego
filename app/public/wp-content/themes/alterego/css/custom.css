@@ -259,7 +259,9 @@ th {
     cursor: pointer;
 }
 
-.input-text {
+.input-text,
+.wpforms-field textarea,
+.wpforms-field input {
     height: 2rem;
     padding: 0 0.5rem !important;
     font-size: 1rem;
@@ -368,6 +370,143 @@ th {
     border-top: solid 1px rgba(0,0,0,0.2);
     font-size: 0.75rem;
 }
+
+.woocommerce-checkout .page-content,
+.static-page {
+    max-width: 580px;
+    margin-bottom: 3rem;
+}
+
+.woocommerce-form-coupon-toggle {
+    margin-bottom: 1.5rem;
+}
+
+.woocommerce-form-coupon-toggle,
+.showcoupon {
+    color: #fff;
+}
+
+.woocommerce-checkout h3,
+.woocommerce-order-details h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+    line-height: 1.2;
+}
+
+.woocommerce-shipping-fields h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-row {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.form-row label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1;
+}
+
+.woocommerce-input-wrapper input {
+    display: block;
+    width: 100%;
+}
+
+.woocommerce-input-wrapper textarea {
+    min-height: 6rem;
+    width: 100%;
+    padding: 0.5rem !important;
+    resize: vertical;
+}
+
+.woocommerce-input-wrapper,
+.seclect2-container {
+    display: block;
+    font-size: 1rem;
+}
+
+.woocommerce-checkout-review-order-table {
+    width: 100%;
+}
+
+.woocommerce-checkout-review-order-table td,
+.woocommerce-checkout-review-order-table th {
+    border: none;
+}
+
+.wc_payment_methods,
+#shipping_method {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+#shipping_method {
+    margin-top: 0;
+}
+
+.wc_payment_methods label,
+#shipping_method label {
+    padding-left: 0.5rem;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.CardField {
+    border: solid 1px rgba(0,0,0,0.2);
+    padding: 0.5rem !important;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+
+.notes {
+    padding-top: 1.5rem;
+}
+
+.shipping ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.woocommerce-order-overview {
+    padding-left: 0;
+    list-style: none;
+    margin-top: 0;
+}
+
+.woocommerce-order-details h2 {
+    margin-top: 1.5rem;
+}
+
+address {
+    font-style: normal;
+}
+
+.woocommerce-customer-details .woocommerce-columns {
+    display: flex;
+}
+
+.woocommerce-customer-details .woocommerce-column {
+    margin-right: 4rem;
+}
+
+.wpforms-error {
+    padding-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.wpforms-field-hp {
+    display: none;
+}
   
 @media (max-width: 40em) {
     .product-thumbnail {
@@ -376,11 +515,18 @@ th {
     .coupon {
         margin-bottom: 1rem;
     }
-    .input-text {
+    .input-text,
+    .wpforms-field textarea {
         height: 30px;
     }
     .input-coupon {
         max-width: 160px;
+    }
+    .woocommerce-customer-details .woocommerce-columns {
+        display: block;
+    }
+    .woocommerce-customer-details .woocommerce-column {
+        margin-right: 0;
     }
 }
 

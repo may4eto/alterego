@@ -17,7 +17,7 @@
 			array(
 				'theme_location' => 'menu-2',
 				'menu_id'        => 'footer-menu',
-				'menu_class'	 => 'footer-menu list flex pa0 ma0 mb-3 mb0-l'
+				'menu_class'	 => 'footer-menu list flex pa0 ma0 mb3 mb0-l'
 			)
 		);
 	?>
@@ -26,7 +26,7 @@
 			array(
 				'theme_location' => 'menu-3',
 				'menu_id'        => 'social-menu',
-				'menu_class'	 => 'social-menu list flex pa0 ma0'
+				'menu_class'	 => 'social-menu list flex pa0 ma0 justify-center justify-end-ns'
 			)
 		);
 	?>
